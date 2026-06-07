@@ -1,0 +1,323 @@
+.mainSurface {
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+    background-color: #f3f4f6;
+    box-sizing: border-box;
+}
+
+.content {
+    margin-top: 1.5rem;
+    padding: 0 2rem 2.5rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.backLink {
+    text-transform: none;
+    font-weight: 600;
+    padding-left: 0;
+    margin-bottom: 1rem;
+}
+
+.backLink:hover {
+    background-color: transparent;
+}
+
+.breadcrumbs {
+    margin-bottom: 1.25rem;
+}
+
+.breadcrumbLink {
+    color: #d41a6d;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.breadcrumbLink:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbMuted {
+    color: rgba(0, 0, 0, 0.35);
+    font-weight: 400;
+    user-select: none;
+}
+
+.heroBlock {
+    margin-bottom: 1.5rem;
+}
+
+.titleRow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.lectureTitle {
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    color: #1a1a1a;
+    line-height: 1.2;
+    padding: 0.35rem 0.5rem 0.25rem 0.35rem;
+    box-sizing: border-box;
+}
+
+.metaRow {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+.metaDate {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    color: #6b7280;
+    font-size: 0.875rem;
+}
+
+.materialCountChip {
+    font-weight: 600;
+    border: none;
+    background-color: rgba(76, 175, 80, 0.14) !important;
+    color: #2e7d32 !important;
+}
+
+.actionIconBtn {
+    color: #d41a6d;
+}
+
+.actionIconBtn:hover {
+    background-color: rgba(212, 26, 109, 0.08);
+}
+
+.descriptionCard {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.descriptionHeadingRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.descriptionHeading {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.descriptionEditBtn {
+    text-transform: none;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.descriptionPlain {
+    color: #4b5563;
+    line-height: 1.6;
+}
+
+.descriptionEditor {
+    width: 100%;
+}
+
+.descriptionEditor .MuiInputBase-root {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #374151;
+}
+
+.descMaterialLink {
+    color: #d41a6d;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.descMaterialLink:hover {
+    text-decoration: underline;
+}
+
+.materialsPanel {
+    margin-top: 1.25rem;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem 1.5rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.materialsHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 1rem;
+    padding-bottom: 0.25rem;
+}
+
+.materialsTitleRow {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.materialsTitle {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #1a1a1a;
+}
+
+.materialList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.materialItem {
+    background: #fafafa;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding: 1rem 1.125rem;
+    transition: box-shadow 0.15s ease, background-color 0.2s ease;
+    scroll-margin-top: 96px;
+}
+
+.materialItem:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+@keyframes materialTargetHighlight {
+    0% {
+        background-color: #fafafa;
+        box-shadow: 0 0 0 0 rgba(212, 26, 109, 0);
+    }
+    12% {
+        background-color: rgba(212, 26, 109, 0.1);
+        box-shadow: 0 0 0 3px rgba(212, 26, 109, 0.35), 0 4px 14px rgba(212, 26, 109, 0.12);
+    }
+    55% {
+        background-color: rgba(212, 26, 109, 0.05);
+        box-shadow: 0 0 0 2px rgba(212, 26, 109, 0.15);
+    }
+    100% {
+        background-color: #fafafa;
+        box-shadow: 0 0 0 0 rgba(212, 26, 109, 0);
+    }
+}
+
+.materialTargetHighlight {
+    animation: materialTargetHighlight 1.45s ease-out forwards;
+}
+
+.typeChip {
+    font-size: 0.7rem;
+    font-weight: 500;
+    height: 22px;
+    border-color: rgba(0, 0, 0, 0.2) !important;
+    color: #4b5563 !important;
+    background: #fff !important;
+}
+
+.linkAnchor {
+    color: #2563eb;
+    text-decoration: none;
+    word-break: break-all;
+    font-size: 0.875rem;
+}
+
+.linkAnchor:hover {
+    text-decoration: underline;
+}
+
+.codeBlock {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    padding: 14px 16px;
+    border-radius: 8px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+    background-color: #f3f4f6;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    margin: 0;
+}
+
+/* Tokyo Night Dark wrapper for highlighted code materials */
+.codeBlockShell {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    margin: 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.codeBlockLangBar {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 8px 14px;
+    background: #16161e;
+    color: #7aa2f7;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.codeBlockPre {
+    margin: 0;
+    padding: 0;
+    background: #1a1b26;
+}
+
+.codeBlockPre code.hljs {
+    display: block;
+    padding: 14px 16px !important;
+    background: transparent !important;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-x: auto;
+}
+
+.materialVideoWrap {
+    width: 100%;
+    max-width: 720px;
+}
+
+.materialVideo {
+    width: 100%;
+    max-height: min(50vh, 400px);
+    border-radius: 8px;
+    background: #0f0f12;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.emptyMaterialsHint {
+    color: #6b7280;
+    font-size: 0.875rem;
+    padding: 0.5rem 0;
+}
+
+@media (max-width: 600px) {
+    .content {
+        padding: 0 1rem 2rem 1rem;
+    }
+}

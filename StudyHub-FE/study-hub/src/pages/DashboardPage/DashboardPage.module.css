@@ -1,0 +1,19 @@
+.contentBox {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 30px;
+}
+
+/* Fills the main column so the tint runs to the bottom of the viewport when content is short */
+.dashboardMain {
+    background-color: #f4f6f9;
+    align-self: stretch;
+}
+
+.line {
+    width: 100%;
+    height: 70px;
+    background-color: #dedede;
+}

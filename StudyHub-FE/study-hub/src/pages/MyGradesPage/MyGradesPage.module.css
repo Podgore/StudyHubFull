@@ -1,0 +1,515 @@
+.content {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 20px clamp(16px, 3vw, 40px) 48px clamp(16px, 3vw, 40px);
+}
+
+.titleBlock {
+  margin-bottom: 28px;
+}
+
+.pageTitle {
+  margin: 0;
+  font-size: clamp(1.5rem, 2vw, 1.85rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #0f172a;
+}
+
+.subtitle {
+  margin: 8px 0 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #64748b;
+}
+
+.statGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 36px;
+}
+
+@media (max-width: 960px) {
+  .statGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .statGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .content {
+    padding: 16px 16px 40px;
+  }
+}
+
+/* --- Summary cards (Figma: hero purple + 3 white stat tiles) --- */
+.statCard {
+  border-radius: 16px;
+  min-height: 130px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 12px rgba(15, 23, 42, 0.06);
+}
+
+.statCardPurple {
+  background: linear-gradient(145deg, #6d28d9 0%, #7c3aed 45%, #8b5cf6 100%);
+  color: #fff;
+  border: none;
+  padding: 20px 22px;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.statPurpleIcon {
+  align-self: flex-start;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statPurpleValue {
+  font-size: 2.125rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.statPurpleCaption {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.92);
+  margin-top: auto;
+}
+
+.statCardPlain {
+  background: #fff;
+  border: 1px solid #e8eaef;
+  padding: 18px 20px;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.statIconWrap {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.statIconWrapBlue {
+  background: #e8f1fe;
+  color: #1e6deb;
+}
+
+.statIconWrapGreen {
+  background: #e8f8ef;
+  color: #0d9f4c;
+}
+
+.statIconWrapPink {
+  background: #fce7f1;
+  color: #d41a6d;
+}
+
+.statPlainValue {
+  font-size: 1.875rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #0f172a;
+}
+
+.statPlainCaption {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: #64748b;
+  line-height: 1.35;
+}
+
+.sectionHeading {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 16px;
+  letter-spacing: -0.02em;
+}
+
+.subjectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 18px;
+  margin-bottom: 36px;
+}
+
+.subjectCard {
+  border-radius: 16px;
+  padding: 18px 18px 16px;
+  cursor: pointer;
+  border: 2px solid #e8eaef;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.05);
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.15s ease;
+}
+
+.subjectCard:hover {
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
+  transform: translateY(-1px);
+}
+
+.subjectCardSelected {
+  border-color: #d41a6d;
+  box-shadow: 0 4px 22px rgba(212, 26, 109, 0.18);
+}
+
+.subjectCardTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.subjectName {
+  font-weight: 700;
+  font-size: 1.0625rem;
+  color: #0f172a;
+  line-height: 1.35;
+}
+
+/* Outlined letter badges (Figma: soft fill + colored ring) */
+.subjectLetterBadge {
+  min-width: 44px;
+  height: 44px;
+  padding: 0 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 0.8125rem;
+  flex-shrink: 0;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+}
+
+.badgeA {
+  background: #ecfdf5;
+  border-color: #34d399;
+  color: #047857;
+}
+
+.badgeB {
+  background: #eff6ff;
+  border-color: #60a5fa;
+  color: #1d4ed8;
+}
+
+.badgeC {
+  background: #fffbeb;
+  border-color: #fbbf24;
+  color: #b45309;
+}
+
+.badgeD {
+  background: #fff7ed;
+  border-color: #fb923c;
+  color: #c2410c;
+}
+
+.badgeF {
+  background: #f8fafc;
+  border-color: #94a3b8;
+  color: #475569;
+}
+
+.badgeNeutral {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+  color: #64748b;
+}
+
+.subjectAvgLine {
+  margin: 0 0 12px;
+  font-size: 1.125rem;
+  font-weight: 800;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+}
+
+.subjectAvgLine span {
+  font-weight: 600;
+  font-size: 0.8125rem;
+  color: #64748b;
+  margin-left: 4px;
+}
+
+.subjectProgress {
+  height: 8px;
+  border-radius: 999px;
+  margin: 0 0 10px;
+}
+
+.subjectProgress :global(.MuiLinearProgress-bar) {
+  border-radius: 999px;
+}
+
+.subjectProgressCaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.subjectProgressCaption strong {
+  font-weight: 700;
+  color: #475569;
+}
+
+.detailPanel {
+  border-radius: 20px;
+  padding: 26px 28px 32px;
+  background: #fff;
+  border: 1px solid #e8eaef;
+  box-shadow: 0 2px 14px rgba(15, 23, 42, 0.06);
+}
+
+.detailHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 28px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.detailTitle {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #0f172a;
+}
+
+.detailMeta {
+  margin: 10px 0 0;
+  font-size: 0.9375rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.currentGradeBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.gradeCircle {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  font-weight: 800;
+  border: 3px solid transparent;
+  box-sizing: border-box;
+}
+
+.currentGradeLabel {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.assignmentsList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.assignmentCard {
+  border-radius: 16px;
+  padding: 0;
+  border: 1px solid #e8eaef;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+  overflow: hidden;
+}
+
+.assignmentInner {
+  padding: 20px 22px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.assignmentMain {
+  flex: 1;
+  min-width: 200px;
+}
+
+.assignmentTitleRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 12px;
+  margin-bottom: 12px;
+}
+
+.assignmentTitle {
+  margin: 0;
+  font-size: 1.0625rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.typeChip {
+  font-weight: 600 !important;
+  border-radius: 999px !important;
+  height: 28px !important;
+}
+
+.typeChipTest {
+  border-color: #c4b5fd !important;
+  color: #5b21b6 !important;
+  background: rgba(139, 92, 246, 0.08) !important;
+}
+
+.typeChipQuiz {
+  border-color: #93c5fd !important;
+  color: #1d4ed8 !important;
+  background: rgba(59, 130, 246, 0.08) !important;
+}
+
+.typeChipHomework {
+  border-color: #cbd5e1 !important;
+  color: #475569 !important;
+  background: #f8fafc !important;
+}
+
+.dateRow {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.dateItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8125rem;
+  color: #64748b;
+}
+
+.dateItem svg {
+  color: #94a3b8;
+  flex-shrink: 0;
+}
+
+.assignmentScoreCol {
+  text-align: right;
+  flex-shrink: 0;
+  min-width: 108px;
+}
+
+.scorePercent {
+  display: block;
+  font-size: 1.875rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.scorePercentHigh {
+  color: #0d9f4c;
+}
+
+.scorePercentMid {
+  color: #1e6deb;
+}
+
+.scorePercentLow {
+  color: #ea580c;
+}
+
+.scorePercentNeutral {
+  color: #64748b;
+}
+
+.scoreDash {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #94a3b8;
+}
+
+.scorePts {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.8125rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.feedbackBox {
+  margin: 0;
+  padding: 16px 22px 18px;
+  background: linear-gradient(180deg, #eff6ff 0%, #f8fbff 100%);
+  border-top: 1px solid #bfdbfe;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+
+.feedbackInner {
+  flex: 1;
+  min-width: 0;
+}
+
+.feedbackIcon {
+  color: #2563eb;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.feedbackHeading {
+  margin: 0 0 6px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: #1e40af;
+  letter-spacing: 0.02em;
+}
+
+.feedbackBody {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: #1e3a5f;
+  white-space: pre-wrap;
+}

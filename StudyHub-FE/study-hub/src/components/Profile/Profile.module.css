@@ -1,0 +1,182 @@
+.pageWrap {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 8px clamp(12px, 3vw, 8px) 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-sizing: border-box;
+}
+
+.identityCard,
+.detailsCard {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 4px 18px rgba(15, 23, 42, 0.06);
+  padding: 22px clamp(18px, 3vw, 28px);
+}
+
+.identityBody {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.avatarWrap {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatarWrap:hover .avatarHover {
+  opacity: 1;
+}
+
+.avatarPlaceholder {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #d41a6d 0%, #7c3aed 100%);
+}
+
+.avatarHover {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(15, 23, 42, 0.45);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  border-radius: 50%;
+}
+
+.identityText {
+  flex: 1;
+  min-width: 0;
+}
+
+.displayName {
+  font-size: clamp(1.15rem, 2.5vw, 1.45rem);
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  margin: 0;
+  color: #0f172a;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.roleLine {
+  margin: 10px 0 0;
+  font-size: 0.94rem;
+  color: rgba(15, 23, 42, 0.52);
+}
+
+.roleHighlight {
+  color: #d41a6d;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.editOutlineBtn {
+  margin-left: auto;
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: 2px solid #d41a6d;
+  background: transparent;
+  color: #d41a6d;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.editOutlineBtn:hover {
+  background: rgba(212, 26, 109, 0.08);
+}
+
+.editOutlineBtn:focus-visible {
+  outline: 2px solid #7c3aed;
+  outline-offset: 2px;
+}
+
+.editSolidBtn {
+  margin-left: auto;
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: 2px solid #d41a6d;
+  background: #d41a6d;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.editSolidBtn:hover {
+  background: #b81659;
+  border-color: #b81659;
+  color: #fff;
+}
+
+.editSolidBtn:focus-visible {
+  outline: 2px solid #7c3aed;
+  outline-offset: 2px;
+}
+
+.sectionTitle {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 18px;
+  letter-spacing: -0.02em;
+}
+
+.fieldsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 22px;
+}
+
+.fieldBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.fieldLabel {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgba(15, 23, 42, 0.48);
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 700px) {
+  .identityBody {
+    align-items: flex-start;
+  }
+
+  .editOutlineBtn,
+  .editSolidBtn {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .fieldsGrid {
+    grid-template-columns: 1fr;
+  }
+}

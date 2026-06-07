@@ -1,0 +1,46 @@
+.welcomeText {
+    padding-left: 20px;
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pageContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.imageContainer{
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authImg{
+    max-width: 100%;
+    height: auto;
+}
+
+.formContainer{
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .authImg {
+        display: none;
+    }
+    .imageContainer{
+        display: none;
+    }
+    .formContainer{
+        width: 100%;
+    }
+}

@@ -1,0 +1,91 @@
+.emptyBox {
+  --st-empty-border: rgba(0, 0, 0, 0.12);
+  --st-empty-bg: rgba(0, 0, 0, 0.04);
+  text-align: center;
+  padding: 20px 16px;
+  border-radius: 12px;
+  border: 2px dashed var(--st-empty-border);
+  background: var(--st-empty-bg);
+}
+
+.emptyIcon {
+  font-size: 40px;
+  color: var(--mui-palette-text-disabled);
+  margin-bottom: 6px;
+  opacity: 0.85;
+}
+
+.emptyTitle {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.emptySubtitle {
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.listDivider {
+  opacity: 0.6;
+}
+
+.fileRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  padding: 4px 0;
+}
+
+.fileRowFirst {
+  padding-top: 0;
+}
+
+.fileRowLast {
+  padding-bottom: 0;
+}
+
+.fileIcon {
+  flex-shrink: 0;
+}
+
+.fileLink {
+  flex: 1;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.removeBtn {
+  color: var(--mui-palette-text-secondary);
+}
+
+.uploadWrapWithItems {
+  margin-top: 20px;
+}
+
+.uploadWrapNoItems {
+  margin-top: 16px;
+}
+
+.uploadBtn {
+  --st-upload-hover-shadow: 0 4px 14px rgba(212, 26, 109, 0.35);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  border-radius: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: none;
+}
+
+.uploadBtn:hover {
+  box-shadow: var(--st-upload-hover-shadow);
+}
+
+.hint {
+  margin-top: 10px;
+  color: var(--mui-palette-text-secondary);
+}
+

@@ -1,0 +1,11 @@
+.contentBox {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    flex: 1;
+    min-height: 0;
+    margin-top: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+}

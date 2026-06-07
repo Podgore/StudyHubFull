@@ -1,0 +1,33 @@
+.lecturesBox {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    min-height: 0;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.135);
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 15px;
+    gap: 10px;
+    overflow: visible;
+}
+
+.sectionHeader {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 0.5rem;
+}
+
+.headerText {
+    flex: 1;
+    min-width: 0;
+}
+
+.materialsBar {
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.04);
+}

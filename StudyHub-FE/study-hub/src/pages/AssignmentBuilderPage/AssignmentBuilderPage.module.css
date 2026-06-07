@@ -1,0 +1,161 @@
+.pageInner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  background: #f3f4f6;
+  box-sizing: border-box;
+}
+
+.pagePadding {
+  padding: 1.25rem clamp(1rem, 2.5vw, 2rem) 2.5rem;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.topBar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.topBarLeft {
+  flex: 1;
+  min-width: 220px;
+}
+
+.topBarRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.gradeOpenEndedBtn {
+  text-transform: none;
+  font-weight: 600;
+  border-radius: 999px;
+}
+
+.backLink {
+  text-transform: none;
+  padding-left: 0;
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+  color: #d41a6d;
+}
+
+.backLink:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.pageTitle {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #1a1a1a;
+  line-height: 1.2;
+  font-size: 1.625rem;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-top: 0.2rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.saveBtn {
+  text-transform: none;
+  font-weight: 600;
+  border-radius: 10px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: #2e7d32;
+  box-shadow: none;
+}
+
+.saveBtn:hover {
+  background-color: #1b5e20;
+  box-shadow: none;
+}
+
+.mainRow {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.editorColumn {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.configCard {
+  background: #f9f5ff;
+  border-radius: 14px;
+  padding: 1.35rem 1.5rem;
+  border: 1px solid rgba(127, 86, 217, 0.35);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+/* Mark + question type in one row */
+.configTop {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem 1.25rem;
+}
+
+.configMarkWrap {
+  flex: 0 1 220px;
+  width: 100%;
+  max-width: 260px;
+  min-width: min(100%, 180px);
+}
+
+.configTypeWrap {
+  flex: 1 1 260px;
+  width: 100%;
+  max-width: 400px;
+  min-width: min(100%, 200px);
+}
+
+.configSummary {
+  margin-top: 1.25rem;
+  font-size: 0.95rem;
+  color: #4b5563;
+  line-height: 1.55;
+}
+
+.sidebar {
+  width: min(320px, 28vw);
+  min-width: 260px;
+  flex-shrink: 0;
+}
+
+.sidebarTitle {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+  color: #1a1a1a;
+}
+
+@media (max-width: 960px) {
+  .mainRow {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+}

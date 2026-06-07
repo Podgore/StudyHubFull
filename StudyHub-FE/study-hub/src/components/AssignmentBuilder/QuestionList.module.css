@@ -1,0 +1,118 @@
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  padding: 1rem 1.25rem 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.dragHint {
+  color: #9ca3af;
+  padding-top: 0.35rem;
+  cursor: grab;
+}
+
+.headerTitles {
+  flex: 1;
+  min-width: 0;
+}
+
+.questionHeading {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #1a1a1a;
+}
+
+.metaLine {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-top: 0.15rem;
+}
+
+.deleteQuestionBtn {
+  color: #d41a6d;
+}
+
+.deleteQuestionBtn:hover {
+  background-color: rgba(212, 26, 109, 0.08);
+}
+
+.optionsBlock {
+  margin-top: 0.75rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.optionRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.65rem;
+  width: 100%;
+  min-width: 0;
+}
+
+.optionRow:first-child {
+  margin-top: 0;
+}
+
+.optionLabel {
+  flex: 0 0 auto;
+  min-width: 5.75rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: #6b7280;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  padding-right: 0.25rem;
+}
+
+.optionField {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.optionTrailing {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-shrink: 0;
+}
+
+@media (max-width: 520px) {
+  .optionRow {
+    flex-wrap: wrap;
+  }
+
+  .optionTrailing {
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 0.25rem;
+  }
+}
+
+.addOptionBtn {
+  text-transform: none;
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-top: 0.75rem;
+  padding-left: 0;
+  color: #d41a6d;
+}
+
+.addOptionBtn:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}

@@ -1,0 +1,404 @@
+.scroll {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 16px 16px 32px;
+  background: #f8f8fb;
+  min-height: 100%;
+}
+
+@media (min-width: 600px) {
+  .scroll {
+    padding: 24px 24px 40px;
+  }
+}
+
+.backBtn {
+  margin-bottom: 16px;
+  text-transform: none;
+  color: #d41a6d;
+  font-weight: 600;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+@media (min-width: 960px) {
+  .layout {
+    grid-template-columns: minmax(260px, 300px) minmax(0, 1fr);
+    gap: 24px;
+  }
+}
+
+.sidebarTitle {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+}
+
+.studentList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.studentCard {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid #e8e8ee;
+  background: #fff;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.studentCard:hover {
+  border-color: #d41a6d55;
+}
+
+.studentCardSelected {
+  border-color: #d41a6d;
+  box-shadow: 0 0 0 2px rgba(212, 26, 109, 0.12);
+  background: #fff5f9;
+}
+
+.studentMeta {
+  flex: 1;
+  min-width: 0;
+}
+
+.studentName {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #1a1a1a;
+}
+
+.studentEmail {
+  font-size: 0.8rem;
+  color: #666;
+  word-break: break-all;
+}
+
+.metaRight {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.progressText {
+  font-size: 0.78rem;
+  color: #666;
+  margin-top: 4px;
+}
+
+.scoreSummary {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #7b1fa2;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.chipGraded {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.chipPending {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.chipIcon {
+  font-size: 14px;
+}
+
+.hero {
+  background: #fff;
+  border: 1px solid #e8e8ee;
+  border-radius: 16px;
+  padding: 20px 20px 18px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.heroTitle {
+  font-weight: 800;
+  font-size: 1.55rem;
+  letter-spacing: -0.02em;
+  margin: 0 0 14px;
+  color: #1a1a1a;
+}
+
+.summaryChips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.summaryChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.summaryIcon {
+  font-size: 18px;
+}
+
+.summaryMax {
+  background: rgba(156, 39, 176, 0.15);
+  color: #7b1fa2;
+}
+
+.summaryInfo {
+  background: rgba(21, 101, 192, 0.1);
+  color: #1565c0;
+}
+
+.summaryGraded {
+  background: rgba(46, 125, 50, 0.15);
+  color: #2e7d32;
+}
+
+.summaryPending {
+  background: rgba(21, 101, 192, 0.12);
+  color: #1565c0;
+}
+
+.profileCard {
+  background: #fff;
+  border: 1px solid #e8e8ee;
+  border-radius: 16px;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.profileMain {
+  flex: 1;
+  min-width: 200px;
+}
+
+.profileName {
+  font-weight: 800;
+  font-size: 1.25rem;
+  margin: 0 0 4px;
+  color: #1a1a1a;
+}
+
+.profileEmail {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0 0 8px;
+}
+
+.submittedLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.totalBox {
+  border: 1px solid rgba(123, 31, 162, 0.35);
+  border-radius: 12px;
+  padding: 12px 18px;
+  text-align: center;
+  background: #fff;
+  min-width: 120px;
+}
+
+.totalLabel {
+  font-size: 0.75rem;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.totalValue {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #7b1fa2;
+}
+
+.questionCard {
+  background: #fff;
+  border: 1px solid #e8e8ee;
+  border-radius: 16px;
+  padding: 18px 20px 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.questionHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.qChip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.pointsLabel {
+  font-weight: 600;
+  color: #444;
+}
+
+.questionStem {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin: 0 0 12px;
+  color: #1a1a1a;
+  line-height: 1.45;
+}
+
+.answerLabel {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.answerBox {
+  border: 1px solid #bbdefb;
+  border-radius: 12px;
+  padding: 14px 16px;
+  background: #f3f9ff;
+  white-space: pre-wrap;
+  line-height: 1.55;
+  color: #222;
+  margin-bottom: 14px;
+}
+
+.referenceBlock {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 14px;
+  padding: 10px 12px;
+  background: #fafafa;
+  border-radius: 8px;
+  border-left: 3px solid #90caf9;
+}
+
+.referenceBody {
+  margin-top: 6px;
+  white-space: pre-wrap;
+}
+
+.gradingInset {
+  background: linear-gradient(180deg, #fff5fb 0%, #ffffff 55%);
+  border: 1px solid rgba(212, 26, 109, 0.2);
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+
+.gradingRow {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+@media (min-width: 600px) {
+  .gradingRow {
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+  }
+}
+
+.fieldLabel {
+  display: block;
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.input :global(.MuiOutlinedInput-root) {
+  border-radius: 12px;
+}
+
+.footerBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 16px 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(156, 39, 176, 0.25);
+  background: linear-gradient(90deg, #fdf5ff 0%, #fff 50%);
+  margin-top: 8px;
+}
+
+.footerText {
+  font-weight: 600;
+  color: #333;
+}
+
+.footerSub {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 4px;
+}
+
+.submitBtn {
+  text-transform: none;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 10px 22px;
+  background: linear-gradient(90deg, #ff5fa2 0%, #9c27b0 100%);
+  color: #fff;
+  box-shadow: none;
+}
+
+.submitBtn:hover {
+  background: linear-gradient(90deg, #ff4d9a 0%, #7b1fa2 100%);
+}
+
+.emptyHint {
+  color: #666;
+  padding: 24px;
+  text-align: center;
+}

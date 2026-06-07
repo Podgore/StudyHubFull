@@ -1,0 +1,38 @@
+.listBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.searchBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.searchBar {
+    padding: 2px 4px;
+}
+
+.subjectsCard {
+    width: 700px;
+    height: 450px;
+    background-color: #ffffff;
+    padding: 30px;
+    overflow-y: auto;
+}
+
+.subjectBox {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 170px;
+    background-color: #d9d9d9;
+    padding: 20px;
+}
+
+.buttonBox {
+    width: 130px;
+    align-self: flex-end;
+}

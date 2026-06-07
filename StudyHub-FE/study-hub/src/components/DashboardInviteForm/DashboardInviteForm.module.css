@@ -1,0 +1,43 @@
+.inviteCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min(680px, 92vw);
+    min-height: 360px;
+    background-color: #ffffff;
+    gap: 22px;
+    padding: 34px 34px 28px 34px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.inputPaper{
+    display: flex;
+    align-items: center;
+    width: min(420px, 62vw);
+    height: 44px;
+    padding: 4px 6px;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    width: 100%;
+}
+
+.button{
+    height: 44px;
+}
+
+.chipBox{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 84px;
+    max-height: 140px;
+    list-style: none;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}

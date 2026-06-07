@@ -1,0 +1,1 @@
+export const STUDYHUB_PRIMARY_MAIN = "#D41A6D";

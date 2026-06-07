@@ -1,0 +1,19 @@
+.passwordContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    max-width: 420px;
+    align-items: stretch;
+}
+
+.googleImg{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}

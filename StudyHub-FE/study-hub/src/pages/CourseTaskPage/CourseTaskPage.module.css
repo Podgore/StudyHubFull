@@ -1,0 +1,191 @@
+.scroll {
+  --st-page-bg: #f8f9fa;
+  --st-back-hover-bg: rgba(212, 26, 109, 0.06);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 16px;
+  background: var(--st-page-bg);
+  min-height: 100%;
+}
+
+@media (min-width: 600px) {
+  .scroll {
+    padding: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .scroll {
+    padding: 24px 32px;
+  }
+}
+
+.content {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.backBtn {
+  margin-bottom: 12px;
+  text-transform: none;
+  color: var(--mui-palette-primary-main);
+  font-weight: 600;
+}
+
+.backBtn:hover {
+  background: var(--st-back-hover-bg);
+}
+
+/* Assignment title + chips sit on page background (no white card) */
+.hero {
+  margin-bottom: 28px;
+  padding: 12px 0 8px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+@media (min-width: 600px) {
+  .hero {
+    padding: 16px 0 10px;
+    margin-bottom: 32px;
+  }
+}
+
+.heroTitle {
+  margin: 0 0 18px;
+  font-size: clamp(2.125rem, 2.8vw + 1.1rem, 3rem);
+  font-weight: 800;
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+  color: var(--mui-palette-text-primary);
+}
+
+.chipsRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.gradeSubmissionsBtn {
+  text-transform: none;
+  font-weight: 700;
+  border-radius: 999px;
+}
+
+.layoutGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+@media (min-width: 768px) {
+  .layoutGrid {
+    grid-template-columns: minmax(0, 1.5fr) minmax(300px, 1fr);
+    gap: 24px;
+    align-items: start;
+  }
+}
+
+@media (min-width: 1100px) {
+  .layoutGrid {
+    grid-template-columns: minmax(0, 1.6fr) minmax(340px, 1fr);
+    gap: 28px;
+  }
+}
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.rightCol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+  align-self: start;
+}
+
+.lectureBtn {
+  text-transform: none;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 8px 16px;
+  border-width: 2px;
+  border-color: #d41a6d;
+  color: #b81459;
+}
+
+.lectureBtn:hover {
+  border-color: #b81459;
+  background: rgba(212, 26, 109, 0.06);
+}
+
+.teacherPanel {
+  --st-panel-border: rgba(212, 26, 109, 0.45);
+  --st-panel-bg: rgba(212, 26, 109, 0.045);
+  --st-panel-shadow: 0 4px 24px rgba(212, 26, 109, 0.08);
+  --st-header-border: rgba(212, 26, 109, 0.15);
+  --st-header-bg: rgba(212, 26, 109, 0.06);
+  border-radius: 12px;
+  border: 2px solid var(--st-panel-border);
+  background: var(--st-panel-bg);
+  overflow: hidden;
+  box-shadow: var(--st-panel-shadow);
+}
+
+@media (min-width: 768px) {
+  .teacherPanel {
+    position: sticky;
+    top: 16px;
+  }
+}
+
+.teacherPanelHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--st-header-border);
+  background: var(--st-header-bg);
+}
+
+.teacherPanelHeaderIcon {
+  color: var(--mui-palette-primary-main);
+  font-size: 26px;
+}
+
+.teacherPanelTitle {
+  font-weight: 800;
+  color: var(--mui-palette-primary-main);
+}
+
+.teacherPanelBody {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.teacherPanelHint {
+  color: var(--mui-palette-text-secondary);
+  line-height: 1.55;
+}
+
+.rightAsideSkeleton {
+  border-radius: 12px;
+  padding: 20px;
+  border: 2px solid rgba(212, 26, 109, 0.2);
+  background: rgba(212, 26, 109, 0.04);
+  box-sizing: border-box;
+  min-height: 320px;
+}

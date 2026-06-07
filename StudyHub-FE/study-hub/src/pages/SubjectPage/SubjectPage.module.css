@@ -1,0 +1,64 @@
+.contentBox {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 420px;
+    width: 100%;
+    gap: 24px;
+    align-items: start;
+    padding: 0 2rem 2rem 2rem;
+    box-sizing: border-box;
+}
+
+.line {
+    width: 100%;
+    height: 70px;
+    background-color: #dedede;
+}
+
+.teacherBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.135);
+    padding: 10px;
+}
+
+.leftColumn {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 0;
+}
+
+.studentsCard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.135);
+    border-radius: 15px;
+    padding: 14px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.studentsList {
+    max-height: 220px;
+    overflow-y: auto;
+    padding-right: 4px;
+}
+
+@media (max-width: 980px) {
+    .contentBox {
+        grid-template-columns: 1fr;
+    }
+}

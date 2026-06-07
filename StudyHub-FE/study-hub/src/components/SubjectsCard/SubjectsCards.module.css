@@ -1,0 +1,53 @@
+.pageWrap {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 12px clamp(16px, 3vw, 40px) 48px;
+  box-sizing: border-box;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: min-content;
+}
+
+.headerRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px 20px;
+  margin-bottom: 22px;
+}
+
+.titleBlock {
+  min-width: 0;
+}
+
+.pageTitle {
+  margin: 0;
+  font-size: clamp(1.45rem, 2.2vw, 1.85rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #0f172a;
+}
+
+.subtitle {
+  margin: 8px 0 0;
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #64748b;
+  max-width: 52ch;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+  gap: clamp(16px, 2vw, 22px);
+  align-items: stretch;
+}
+
+.empty {
+  color: #64748b;
+  font-size: 0.95rem;
+}

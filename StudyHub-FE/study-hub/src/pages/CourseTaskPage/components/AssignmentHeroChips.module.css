@@ -1,0 +1,19 @@
+.chip {
+  border-radius: 999px;
+  letter-spacing: 0.01em;
+}
+
+.chip :global(.MuiChip-label) {
+  font-weight: inherit;
+  padding-left: 6px;
+  padding-right: 12px;
+}
+
+.icon :global(.MuiSvgIcon-root) {
+  font-size: 18px;
+}
+
+.opens {
+  max-width: 100%;
+}
+

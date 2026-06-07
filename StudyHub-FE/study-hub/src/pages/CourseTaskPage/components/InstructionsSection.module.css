@@ -1,0 +1,12 @@
+.text {
+  white-space: pre-wrap;
+  line-height: 1.65;
+  font-size: 1.05rem;
+  color: var(--mui-palette-text-primary);
+}
+
+.empty {
+  line-height: 1.6;
+  font-style: italic;
+}
+

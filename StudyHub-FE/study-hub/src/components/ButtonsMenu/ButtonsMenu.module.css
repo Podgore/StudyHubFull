@@ -1,0 +1,67 @@
+.menuBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 260px;
+    flex-shrink: 0;
+    align-self: stretch;
+    overflow-y: auto;
+    background-color: #f6f7f9;
+    padding: 18px 14px;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.profileBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    width: 224px;
+    height: 54px;
+    margin: 30px 13px;
+    border-radius: 24px;
+    gap: 10px;
+}
+
+.buttonBox{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    cursor: pointer;
+    border-radius: 12px;
+    gap: 12px;
+    color: #2b2b2b;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.active{
+    background-color: #ffffff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+
+.settingsBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    gap: 6px;
+}
+
+.line{
+    width: 90%;
+    height: 1px;
+    background-color: #A3A3A3;
+    align-self: center;
+}

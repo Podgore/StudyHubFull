@@ -1,0 +1,122 @@
+.filterToolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 1.25rem;
+}
+
+.filterRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  row-gap: 10px;
+}
+
+.filterPrefix {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: rgba(15, 23, 42, 0.55);
+  flex-shrink: 0;
+}
+
+.filterPrefixIcon {
+  font-size: 1.125rem !important;
+  color: rgba(15, 23, 42, 0.45) !important;
+}
+
+.filterGroup {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+}
+
+.filterGroupLabel {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: rgba(15, 23, 42, 0.5);
+  margin-right: 2px;
+}
+
+.filterPill {
+  border: none;
+  cursor: pointer;
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  font-family: inherit;
+  line-height: 1.2;
+  background: #f1f5f9;
+  color: #0f172a;
+  transition: background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.filterPill:hover {
+  background: #e2e8f0;
+}
+
+.filterPill:focus-visible {
+  outline: 2px solid #d41a6d;
+  outline-offset: 2px;
+}
+
+.filterPillActive {
+  background: #d41a6d;
+  color: #fff;
+  box-shadow: 0 1px 2px rgba(212, 26, 109, 0.25);
+}
+
+.filterPillActive:hover {
+  background: #b81659;
+  color: #fff;
+}
+
+.filterToolbarClear {
+  margin-left: auto;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  font-family: inherit;
+  color: rgba(212, 26, 109, 0.95);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  padding: 6px 4px;
+}
+
+.filterToolbarClear:hover {
+  color: #b81659;
+}
+
+.assignmentsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    min-height: 0;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.135);
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    margin-top: 1rem;
+    padding: 15px;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.listAssignment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    height: 120px;
+    background-color: #ffffff;
+    padding: 15px;
+}

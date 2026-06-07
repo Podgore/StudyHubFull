@@ -1,0 +1,27 @@
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 500px;
+    height: 50px;
+}
+
+.searchButton {
+    width: 130px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.searchButton :hover {
+    background-color: #ff4d9d;
+}

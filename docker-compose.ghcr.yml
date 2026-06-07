@@ -1,0 +1,79 @@
+# Pull images from GitHub Container Registry (built by .github/workflows/docker-publish.yml).
+# Set GHCR_IMAGE_PREFIX in .env to your repo path, lower case, e.g. ghcr.io/myorg/studyhub
+#
+services:
+  sql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "DevStudyHub9"
+    volumes:
+      - studyhub-sqldata:/var/opt/mssql
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P \"$$MSSQL_SA_PASSWORD\" -C -Q \"SELECT 1\" || exit 1",
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 35s
+
+  sql-init:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    depends_on:
+      sql:
+        condition: service_healthy
+    restart: "no"
+    entrypoint:
+      [
+        "/opt/mssql-tools18/bin/sqlcmd",
+        "-S",
+        "sql",
+        "-U",
+        "sa",
+        "-P",
+        "DevStudyHub9",
+        "-C",
+        "-Q",
+        "IF DB_ID(N'StudyHub') IS NULL CREATE DATABASE [StudyHub];",
+      ]
+
+  api:
+    image: ${GHCR_IMAGE_PREFIX}/studyhub-api:${IMAGE_TAG:-latest}
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__DefaultConnection: "Server=sql;Database=StudyHub;User Id=sa;Password=DevStudyHub9;TrustServerCertificate=True;MultipleActiveResultSets=true"
+      GoogleAuthConfig__RedirectUri: "${STUDYHUB_PUBLIC_URL:-http://localhost:9080}"
+      CallbackUrisConfig__AcceptInvitationUri: "${STUDYHUB_PUBLIC_URL:-http://localhost:9080}/sign-up/{0}"
+      CallbackUrisConfig__ResetPasswordUri: "${STUDYHUB_PUBLIC_URL:-http://localhost:9080}/reset-password/{0}/{1}"
+    depends_on:
+      sql:
+        condition: service_healthy
+      sql-init:
+        condition: service_completed_successfully
+    volumes:
+      - studyhub-uploads:/app/Uploads
+      - studyhub-lecture-materials:/app/LectureMaterials
+      - studyhub-dataprotection:/root/.aspnet/DataProtection-Keys
+
+  web:
+    image: ${GHCR_IMAGE_PREFIX}/studyhub-web:${IMAGE_TAG:-latest}
+    depends_on:
+      - api
+
+  gateway:
+    image: ${GHCR_IMAGE_PREFIX}/studyhub-gateway:${IMAGE_TAG:-latest}
+    ports:
+      - "${STUDYHUB_HTTP_PORT:-9080}:80"
+    depends_on:
+      - api
+      - web
+
+volumes:
+  studyhub-sqldata:
+  studyhub-uploads:
+  studyhub-lecture-materials:
+  studyhub-dataprotection:

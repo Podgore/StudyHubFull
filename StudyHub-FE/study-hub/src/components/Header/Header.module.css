@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex-direction: column;
+    gap: 100px;
+    padding: 20px 20px 50px 20px;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imgTop {
+    position: relative;
+    width: 100px;
+    height: auto;
+    left: 5%;
+    top: -140px;
+}
+
+.imgBottom {
+    position: relative;
+    width: 120px;
+    height: auto;
+    right: 4%;
+    top: 90px;
+}

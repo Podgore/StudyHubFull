@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.profileBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    width: 15%;
+    height: 46px;
+    margin: 0;
+    border-radius: 36px;
+    gap: 10px;
+}
+.contentBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    height: 10vh;
+    min-height: 64px;
+    box-sizing: border-box;
+    padding: 0 20px 0 0;
+    flex-shrink: 0;
+    border-bottom: 1px solid #c4c4c437;
+}
