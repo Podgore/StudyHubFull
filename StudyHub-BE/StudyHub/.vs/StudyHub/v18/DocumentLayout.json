@@ -1,0 +1,1352 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub\\controllers\\assignmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\assignmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\studentanswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\studentanswerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\notificationsettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\notificationsettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub\\controllers\\googleauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\googleauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\auth\\googleauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\auth\\googleauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub\\controllers\\assignmenttaskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\assignmenttaskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B671CF-E11C-4748-9C42-DC839BB996DE}|StudyHub.Hangfire\\StudyHub.Hangfire.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.hangfire\\jobs\\telegramdailydigestjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B671CF-E11C-4748-9C42-DC839BB996DE}|StudyHub.Hangfire\\StudyHub.Hangfire.csproj|solutionrelative:studyhub.hangfire\\jobs\\telegramdailydigestjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\strategies\\students\\studentnewassignmentstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\strategies\\students\\studentnewassignmentstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\studentcontentinstantnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\studentcontentinstantnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\digestdedupekeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\digestdedupekeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\notificationdispatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\notificationdispatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\telegramnotificationsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\telegramnotificationsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\notificationmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\notificationmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\strategies\\students\\studentlecturereminderstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\strategies\\students\\studentlecturereminderstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\strategies\\teachers\\teacherpendinggradingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\strategies\\teachers\\teacherpendinggradingstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\lectureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\lectureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1DA920-AC1A-45E8-A82C-A0820B53AA00}|StudyHub.DAL\\StudyHub.DAL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.dal\\migrations\\20260515120000_addtimedtestsessionfields.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1DA920-AC1A-45E8-A82C-A0820B53AA00}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\migrations\\20260515120000_addtimedtestsessionfields.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012D10CE-DC43-4915-90A8-7CDE65BAA52B}|Entities\\StudyHub.Entities.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\entities\\assignmentattachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{012D10CE-DC43-4915-90A8-7CDE65BAA52B}|Entities\\StudyHub.Entities.csproj|solutionrelative:entities\\assignmentattachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012D10CE-DC43-4915-90A8-7CDE65BAA52B}|Entities\\StudyHub.Entities.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\entities\\homeworksubmissionattachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{012D10CE-DC43-4915-90A8-7CDE65BAA52B}|Entities\\StudyHub.Entities.csproj|solutionrelative:entities\\homeworksubmissionattachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub\\dependencyinjection\\notificationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\dependencyinjection\\notificationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub\\services\\telegrambotpollinghostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\services\\telegrambotpollinghostedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\strategies\\students\\studentdeadlinestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\strategies\\students\\studentdeadlinestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\interfaces\\itelegramnotificationsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\interfaces\\itelegramnotificationsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\interfaces\\inotificationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\interfaces\\inotificationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.common\\dto\\notifications\\teachernotificationpreferencesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\dto\\notifications\\teachernotificationpreferencesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B671CF-E11C-4748-9C42-DC839BB996DE}|StudyHub.Hangfire\\StudyHub.Hangfire.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.hangfire\\jobs\\telegramnotificationsjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B671CF-E11C-4748-9C42-DC839BB996DE}|StudyHub.Hangfire\\StudyHub.Hangfire.csproj|solutionrelative:studyhub.hangfire\\jobs\\telegramnotificationsjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B671CF-E11C-4748-9C42-DC839BB996DE}|StudyHub.Hangfire\\StudyHub.Hangfire.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.hangfire\\extensions\\hangfireextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B671CF-E11C-4748-9C42-DC839BB996DE}|StudyHub.Hangfire\\StudyHub.Hangfire.csproj|solutionrelative:studyhub.hangfire\\extensions\\hangfireextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.common\\configs\\hangfireconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\configs\\hangfireconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\notificationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\notificationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\strategies\\teachers\\teacherdeadlinestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\strategies\\teachers\\teacherdeadlinestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\strategies\\teachers\\teacherlowsubmissionratestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\strategies\\teachers\\teacherlowsubmissionratestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\strategies\\teachers\\teacherlecturereminderstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\strategies\\teachers\\teacherlecturereminderstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\instanteventnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\instanteventnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\interfaces\\iteachernotificationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\interfaces\\iteachernotificationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\notifications\\interfaces\\istudentnotificationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\notifications\\interfaces\\istudentnotificationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\studentgradesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\studentgradesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\auth\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\auth\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\auth\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\auth\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1DA920-AC1A-45E8-A82C-A0820B53AA00}|StudyHub.DAL\\StudyHub.DAL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.dal\\migrations\\20260515120000_addtimedtestsessionfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1DA920-AC1A-45E8-A82C-A0820B53AA00}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\migrations\\20260515120000_addtimedtestsessionfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\homeworksubmissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\homeworksubmissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\lecturematerialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\lecturematerialservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\openendedgradingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\openendedgradingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.common\\dto\\assignment\\homeworkgrandingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\dto\\assignment\\homeworkgrandingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.common\\dto\\assignment\\homeworksubmissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\dto\\assignment\\homeworksubmissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.common\\dto\\studentgrades\\studentgradessummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\dto\\studentgrades\\studentgradessummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.common\\dto\\studentgrades\\studentassignmentgraderowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\dto\\studentgrades\\studentassignmentgraderowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.common\\dto\\lecture\\lecturematerialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\dto\\lecture\\lecturematerialdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\interfaces\\inotificationsettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\interfaces\\inotificationsettingsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.common\\dto\\notifications\\updatenotificationsettingsrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\dto\\notifications\\updatenotificationsettingsrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.common\\dto\\notifications\\studentlecturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\dto\\notifications\\studentlecturedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.common\\dto\\notifications\\telegramlinkresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\dto\\notifications\\telegramlinkresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\helpers\\telegramupdateparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\helpers\\telegramupdateparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.common\\utility\\notificationsettingsconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\utility\\notificationsettingsconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\helpers\\notificationpreferencesserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\helpers\\notificationpreferencesserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub\\controllers\\notificationsettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\notificationsettingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012D10CE-DC43-4915-90A8-7CDE65BAA52B}|Entities\\StudyHub.Entities.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\entities\\telegramlinkcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{012D10CE-DC43-4915-90A8-7CDE65BAA52B}|Entities\\StudyHub.Entities.csproj|solutionrelative:entities\\telegramlinkcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1DA920-AC1A-45E8-A82C-A0820B53AA00}|StudyHub.DAL\\StudyHub.DAL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.dal\\ef\\configurations\\telegramlinkcodeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1DA920-AC1A-45E8-A82C-A0820B53AA00}|StudyHub.DAL\\StudyHub.DAL.csproj|solutionrelative:studyhub.dal\\ef\\configurations\\telegramlinkcodeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\assignments\\assignmenttaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\assignments\\assignmenttaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub\\middlewares\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\middlewares\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub\\controllers\\studentgradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\studentgradescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\assignments\\variantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\assignments\\variantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\interfaces\\assignment\\ivariantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\interfaces\\assignment\\ivariantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub\\controllers\\variantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D7349A-72F3-435E-BD92-85D16E6879E2}|StudyHub\\StudyHub.csproj|solutionrelative:studyhub\\controllers\\variantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\interfaces\\assignment\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\interfaces\\assignment\\iassignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\assignments\\assignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\assignments\\assignmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.common\\dto\\assignment\\homeworkgradingstudentrowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\dto\\assignment\\homeworkgradingstudentrowdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.common\\dto\\assignment\\homeworkgradingdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA346829-DC88-4FBB-B163-B9399830EDDC}|StudyHub.Common\\StudyHub.Common.csproj|solutionrelative:studyhub.common\\dto\\assignment\\homeworkgradingdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\interfaces\\iuserinvitationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\interfaces\\iuserinvitationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\assignments\\optionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\assignments\\optionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\services\\encryptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\services\\encryptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012D10CE-DC43-4915-90A8-7CDE65BAA52B}|Entities\\StudyHub.Entities.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\entities\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{012D10CE-DC43-4915-90A8-7CDE65BAA52B}|Entities\\StudyHub.Entities.csproj|solutionrelative:entities\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012D10CE-DC43-4915-90A8-7CDE65BAA52B}|Entities\\StudyHub.Entities.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\entities\\materialcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{012D10CE-DC43-4915-90A8-7CDE65BAA52B}|Entities\\StudyHub.Entities.csproj|solutionrelative:entities\\materialcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012D10CE-DC43-4915-90A8-7CDE65BAA52B}|Entities\\StudyHub.Entities.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\entities\\inviteduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{012D10CE-DC43-4915-90A8-7CDE65BAA52B}|Entities\\StudyHub.Entities.csproj|solutionrelative:entities\\inviteduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012D10CE-DC43-4915-90A8-7CDE65BAA52B}|Entities\\StudyHub.Entities.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\entities\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{012D10CE-DC43-4915-90A8-7CDE65BAA52B}|Entities\\StudyHub.Entities.csproj|solutionrelative:entities\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012D10CE-DC43-4915-90A8-7CDE65BAA52B}|Entities\\StudyHub.Entities.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\entities\\assignmenttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{012D10CE-DC43-4915-90A8-7CDE65BAA52B}|Entities\\StudyHub.Entities.csproj|solutionrelative:entities\\assignmenttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\profiles\\assignmentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\profiles\\assignmentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|c:\\c\\studyhub\\studyhub-be\\studyhub\\studyhub.bll\\profiles\\studentanswerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AE573C4-5A6B-4F15-9179-C0E9F8164251}|StudyHub.BLL\\StudyHub.BLL.csproj|solutionrelative:studyhub.bll\\profiles\\studentanswerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ivan\\AppData\\Local\\SourceServer\\6f98e147c4de5bf1e426a1b5d38ffc004652970039a1bcb3936652af0c7c9346\\StudyHub\\StudyHub\\Controllers\\AssignmentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 81,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4fc5ff1-28ef-4b04-ad02-6b298310ccc7}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "StudyHub\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T10:28:41.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GoogleAuthController.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Controllers\\GoogleAuthController.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Controllers\\GoogleAuthController.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Controllers\\GoogleAuthController.cs",
+              "RelativeToolTip": "StudyHub\\Controllers\\GoogleAuthController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAlwBoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T10:28:42.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GoogleAuthService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Auth\\GoogleAuthService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\Auth\\GoogleAuthService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Auth\\GoogleAuthService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\Auth\\GoogleAuthService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAwwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T10:22:35.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TelegramDailyDigestJob.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Hangfire\\Jobs\\TelegramDailyDigestJob.cs",
+              "RelativeDocumentMoniker": "StudyHub.Hangfire\\Jobs\\TelegramDailyDigestJob.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Hangfire\\Jobs\\TelegramDailyDigestJob.cs",
+              "RelativeToolTip": "StudyHub.Hangfire\\Jobs\\TelegramDailyDigestJob.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T09:54:22.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DigestDedupeKeys.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\DigestDedupeKeys.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\DigestDedupeKeys.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\DigestDedupeKeys.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\DigestDedupeKeys.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T09:33:46.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StudentContentInstantNotifier.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\StudentContentInstantNotifier.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\StudentContentInstantNotifier.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\StudentContentInstantNotifier.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\StudentContentInstantNotifier.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAQwJsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T09:33:20.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20260515120000_AddTimedTestSessionFields.Designer.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.DAL\\Migrations\\20260515120000_AddTimedTestSessionFields.Designer.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\Migrations\\20260515120000_AddTimedTestSessionFields.Designer.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.DAL\\Migrations\\20260515120000_AddTimedTestSessionFields.Designer.cs",
+              "RelativeToolTip": "StudyHub.DAL\\Migrations\\20260515120000_AddTimedTestSessionFields.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T09:24:32.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AssignmentAttachment.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Entities\\AssignmentAttachment.cs",
+              "RelativeDocumentMoniker": "Entities\\AssignmentAttachment.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Entities\\AssignmentAttachment.cs",
+              "RelativeToolTip": "Entities\\AssignmentAttachment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T05:05:25.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeworkSubmissionAttachment.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Entities\\HomeworkSubmissionAttachment.cs",
+              "RelativeDocumentMoniker": "Entities\\HomeworkSubmissionAttachment.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Entities\\HomeworkSubmissionAttachment.cs",
+              "RelativeToolTip": "Entities\\HomeworkSubmissionAttachment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T05:05:20.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HangfireExtensions.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Hangfire\\Extensions\\HangfireExtensions.cs",
+              "RelativeDocumentMoniker": "StudyHub.Hangfire\\Extensions\\HangfireExtensions.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Hangfire\\Extensions\\HangfireExtensions.cs",
+              "RelativeToolTip": "StudyHub.Hangfire\\Extensions\\HangfireExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T02:59:02.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TelegramNotificationsJob.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Hangfire\\Jobs\\TelegramNotificationsJob.cs",
+              "RelativeDocumentMoniker": "StudyHub.Hangfire\\Jobs\\TelegramNotificationsJob.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Hangfire\\Jobs\\TelegramNotificationsJob.cs",
+              "RelativeToolTip": "StudyHub.Hangfire\\Jobs\\TelegramNotificationsJob.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T02:58:42.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ITelegramNotificationSender.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Interfaces\\ITelegramNotificationSender.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\Interfaces\\ITelegramNotificationSender.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Interfaces\\ITelegramNotificationSender.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\Interfaces\\ITelegramNotificationSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T02:55:16.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ITeacherNotificationStrategy.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Interfaces\\ITeacherNotificationStrategy.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\Interfaces\\ITeacherNotificationStrategy.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Interfaces\\ITeacherNotificationStrategy.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\Interfaces\\ITeacherNotificationStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T02:55:16.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IStudentNotificationStrategy.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Interfaces\\IStudentNotificationStrategy.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\Interfaces\\IStudentNotificationStrategy.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Interfaces\\IStudentNotificationStrategy.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\Interfaces\\IStudentNotificationStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T02:55:15.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "INotificationStrategy.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Interfaces\\INotificationStrategy.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\Interfaces\\INotificationStrategy.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Interfaces\\INotificationStrategy.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\Interfaces\\INotificationStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T02:55:09.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Auth\\PasswordService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\Auth\\PasswordService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Auth\\PasswordService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\Auth\\PasswordService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T02:44:48.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Auth\\TokenService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\Auth\\TokenService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Auth\\TokenService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\Auth\\TokenService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T02:44:03.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20260515120000_AddTimedTestSessionFields.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.DAL\\Migrations\\20260515120000_AddTimedTestSessionFields.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\Migrations\\20260515120000_AddTimedTestSessionFields.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.DAL\\Migrations\\20260515120000_AddTimedTestSessionFields.cs",
+              "RelativeToolTip": "StudyHub.DAL\\Migrations\\20260515120000_AddTimedTestSessionFields.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T13:37:15.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NotificationMessages.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\NotificationMessages.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\NotificationMessages.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\NotificationMessages.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\NotificationMessages.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAA4wC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T22:52:06.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NotificationServiceRegistration.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\DependencyInjection\\NotificationServiceRegistration.cs",
+              "RelativeDocumentMoniker": "StudyHub\\DependencyInjection\\NotificationServiceRegistration.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\DependencyInjection\\NotificationServiceRegistration.cs",
+              "RelativeToolTip": "StudyHub\\DependencyInjection\\NotificationServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T22:51:58.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "NotificationContext.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\NotificationContext.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\NotificationContext.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\NotificationContext.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\NotificationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T22:16:01.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TeacherLowSubmissionRateStrategy.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Strategies\\Teachers\\TeacherLowSubmissionRateStrategy.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\Strategies\\Teachers\\TeacherLowSubmissionRateStrategy.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Strategies\\Teachers\\TeacherLowSubmissionRateStrategy.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\Strategies\\Teachers\\TeacherLowSubmissionRateStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T22:16:56.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TeacherPendingGradingStrategy.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Strategies\\Teachers\\TeacherPendingGradingStrategy.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\Strategies\\Teachers\\TeacherPendingGradingStrategy.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Strategies\\Teachers\\TeacherPendingGradingStrategy.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\Strategies\\Teachers\\TeacherPendingGradingStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T22:16:55.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentNewAssignmentStrategy.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Strategies\\Students\\StudentNewAssignmentStrategy.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\Strategies\\Students\\StudentNewAssignmentStrategy.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Strategies\\Students\\StudentNewAssignmentStrategy.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\Strategies\\Students\\StudentNewAssignmentStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T22:16:49.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StudentLectureReminderStrategy.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Strategies\\Students\\StudentLectureReminderStrategy.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\Strategies\\Students\\StudentLectureReminderStrategy.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Strategies\\Students\\StudentLectureReminderStrategy.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\Strategies\\Students\\StudentLectureReminderStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T22:16:37.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StudentDeadlineStrategy.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Strategies\\Students\\StudentDeadlineStrategy.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\Strategies\\Students\\StudentDeadlineStrategy.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Strategies\\Students\\StudentDeadlineStrategy.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\Strategies\\Students\\StudentDeadlineStrategy.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvykAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T22:16:36.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TelegramNotificationSender.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\TelegramNotificationSender.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\TelegramNotificationSender.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\TelegramNotificationSender.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\TelegramNotificationSender.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAhwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T22:16:02.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TeacherLectureReminderStrategy.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Strategies\\Teachers\\TeacherLectureReminderStrategy.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\Strategies\\Teachers\\TeacherLectureReminderStrategy.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Strategies\\Teachers\\TeacherLectureReminderStrategy.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\Strategies\\Teachers\\TeacherLectureReminderStrategy.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T22:15:54.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "InstantEventNotifier.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\InstantEventNotifier.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\InstantEventNotifier.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\InstantEventNotifier.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\InstantEventNotifier.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAGEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T22:14:46.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TeacherDeadlineStrategy.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Strategies\\Teachers\\TeacherDeadlineStrategy.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Notifications\\Strategies\\Teachers\\TeacherDeadlineStrategy.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Notifications\\Strategies\\Teachers\\TeacherDeadlineStrategy.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Notifications\\Strategies\\Teachers\\TeacherDeadlineStrategy.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T22:11:45.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HangfireConfig.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\Configs\\HangfireConfig.cs",
+              "RelativeDocumentMoniker": "StudyHub.Common\\Configs\\HangfireConfig.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\Configs\\HangfireConfig.cs",
+              "RelativeToolTip": "StudyHub.Common\\Configs\\HangfireConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T15:29:25.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LectureMaterialService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\LectureMaterialService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\LectureMaterialService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\LectureMaterialService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\LectureMaterialService.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T15:02:33.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "OpenEndedGradingService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\OpenEndedGradingService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\OpenEndedGradingService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\OpenEndedGradingService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\OpenEndedGradingService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T15:02:13.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentAnswerService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\StudentAnswerService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\StudentAnswerService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\StudentAnswerService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\StudentAnswerService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwDIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T15:02:11.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "StudentAssignmentGradeRowDTO.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\StudentGrades\\StudentAssignmentGradeRowDTO.cs",
+              "RelativeDocumentMoniker": "StudyHub.Common\\DTO\\StudentGrades\\StudentAssignmentGradeRowDTO.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\StudentGrades\\StudentAssignmentGradeRowDTO.cs",
+              "RelativeToolTip": "StudyHub.Common\\DTO\\StudentGrades\\StudentAssignmentGradeRowDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:38:34.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "StudentGradesSummaryDTO.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\StudentGrades\\StudentGradesSummaryDTO.cs",
+              "RelativeDocumentMoniker": "StudyHub.Common\\DTO\\StudentGrades\\StudentGradesSummaryDTO.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\StudentGrades\\StudentGradesSummaryDTO.cs",
+              "RelativeToolTip": "StudyHub.Common\\DTO\\StudentGrades\\StudentGradesSummaryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:38:33.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "LectureMaterialDTO.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Lecture\\LectureMaterialDTO.cs",
+              "RelativeDocumentMoniker": "StudyHub.Common\\DTO\\Lecture\\LectureMaterialDTO.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Lecture\\LectureMaterialDTO.cs",
+              "RelativeToolTip": "StudyHub.Common\\DTO\\Lecture\\LectureMaterialDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:38:09.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "UpdateNotificationSettingsRequestDto.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Notifications\\UpdateNotificationSettingsRequestDto.cs",
+              "RelativeDocumentMoniker": "StudyHub.Common\\DTO\\Notifications\\UpdateNotificationSettingsRequestDto.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Notifications\\UpdateNotificationSettingsRequestDto.cs",
+              "RelativeToolTip": "StudyHub.Common\\DTO\\Notifications\\UpdateNotificationSettingsRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:35:42.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "StudentLectureDto.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Notifications\\StudentLectureDto.cs",
+              "RelativeDocumentMoniker": "StudyHub.Common\\DTO\\Notifications\\StudentLectureDto.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Notifications\\StudentLectureDto.cs",
+              "RelativeToolTip": "StudyHub.Common\\DTO\\Notifications\\StudentLectureDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:35:04.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TeacherNotificationPreferencesDto.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Notifications\\TeacherNotificationPreferencesDto.cs",
+              "RelativeDocumentMoniker": "StudyHub.Common\\DTO\\Notifications\\TeacherNotificationPreferencesDto.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Notifications\\TeacherNotificationPreferencesDto.cs",
+              "RelativeToolTip": "StudyHub.Common\\DTO\\Notifications\\TeacherNotificationPreferencesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:35:02.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "TelegramLinkResponseDto.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Notifications\\TelegramLinkResponseDto.cs",
+              "RelativeDocumentMoniker": "StudyHub.Common\\DTO\\Notifications\\TelegramLinkResponseDto.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Notifications\\TelegramLinkResponseDto.cs",
+              "RelativeToolTip": "StudyHub.Common\\DTO\\Notifications\\TelegramLinkResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:35:02.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "TelegramUpdateParser.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Helpers\\TelegramUpdateParser.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Helpers\\TelegramUpdateParser.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Helpers\\TelegramUpdateParser.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Helpers\\TelegramUpdateParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:26:11.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "NotificationPreferencesSerializer.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Helpers\\NotificationPreferencesSerializer.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Helpers\\NotificationPreferencesSerializer.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Helpers\\NotificationPreferencesSerializer.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Helpers\\NotificationPreferencesSerializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:25:43.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "NotificationSettingsConstants.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\Utility\\NotificationSettingsConstants.cs",
+              "RelativeDocumentMoniker": "StudyHub.Common\\Utility\\NotificationSettingsConstants.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\Utility\\NotificationSettingsConstants.cs",
+              "RelativeToolTip": "StudyHub.Common\\Utility\\NotificationSettingsConstants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T14:25:06.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SubjectService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\SubjectService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\SubjectService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\SubjectService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\SubjectService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T13:52:51.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NotificationDispatchService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\NotificationDispatchService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\NotificationDispatchService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\NotificationDispatchService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\NotificationDispatchService.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAlwLAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T13:52:00.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TelegramBotPollingHostedService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Services\\TelegramBotPollingHostedService.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Services\\TelegramBotPollingHostedService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Services\\TelegramBotPollingHostedService.cs",
+              "RelativeToolTip": "StudyHub\\Services\\TelegramBotPollingHostedService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T23:48:44.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "INotificationSettingsService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Interfaces\\INotificationSettingsService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\Interfaces\\INotificationSettingsService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Interfaces\\INotificationSettingsService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\Interfaces\\INotificationSettingsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T23:37:29.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Program.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Program.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Program.cs",
+              "RelativeToolTip": "StudyHub\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T23:08:02.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\appsettings.json",
+              "RelativeDocumentMoniker": "StudyHub\\appsettings.json",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\appsettings.json",
+              "RelativeToolTip": "StudyHub\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-13T23:07:29.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "NotificationSettingsController.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Controllers\\NotificationSettingsController.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Controllers\\NotificationSettingsController.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Controllers\\NotificationSettingsController.cs",
+              "RelativeToolTip": "StudyHub\\Controllers\\NotificationSettingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T23:06:00.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotificationSettingsService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\NotificationSettingsService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\NotificationSettingsService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\NotificationSettingsService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\NotificationSettingsService.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAowIcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T23:05:54.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "TelegramLinkCode.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Entities\\TelegramLinkCode.cs",
+              "RelativeDocumentMoniker": "Entities\\TelegramLinkCode.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Entities\\TelegramLinkCode.cs",
+              "RelativeToolTip": "Entities\\TelegramLinkCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T22:54:01.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "TelegramLinkCodeConfiguration.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.DAL\\EF\\Configurations\\TelegramLinkCodeConfiguration.cs",
+              "RelativeDocumentMoniker": "StudyHub.DAL\\EF\\Configurations\\TelegramLinkCodeConfiguration.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.DAL\\EF\\Configurations\\TelegramLinkCodeConfiguration.cs",
+              "RelativeToolTip": "StudyHub.DAL\\EF\\Configurations\\TelegramLinkCodeConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T22:53:52.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ExceptionFilter.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Middlewares\\ExceptionFilter.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Middlewares\\ExceptionFilter.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Middlewares\\ExceptionFilter.cs",
+              "RelativeToolTip": "StudyHub\\Middlewares\\ExceptionFilter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T21:00:43.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "AssignmentTaskService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Assignments\\AssignmentTaskService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\Assignments\\AssignmentTaskService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Assignments\\AssignmentTaskService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\Assignments\\AssignmentTaskService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T20:50:49.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssignmentTaskController.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Controllers\\AssignmentTaskController.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Controllers\\AssignmentTaskController.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Controllers\\AssignmentTaskController.cs",
+              "RelativeToolTip": "StudyHub\\Controllers\\AssignmentTaskController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T20:50:39.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-12T21:42:06.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "VariantService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Assignments\\VariantService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\Assignments\\VariantService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Assignments\\VariantService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\Assignments\\VariantService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAuwE4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T11:32:51.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "VariantController.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Controllers\\VariantController.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Controllers\\VariantController.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Controllers\\VariantController.cs",
+              "RelativeToolTip": "StudyHub\\Controllers\\VariantController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwDgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T11:32:40.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "StudentGradesController.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Controllers\\StudentGradesController.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Controllers\\StudentGradesController.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Controllers\\StudentGradesController.cs",
+              "RelativeToolTip": "StudyHub\\Controllers\\StudentGradesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T23:04:34.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "StudentGradesService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\StudentGradesService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\StudentGradesService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\StudentGradesService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\StudentGradesService.cs",
+              "ViewState": "AgIAAA4BAAAAAAAAAAAlwKMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T23:04:25.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "HomeworkSubmissionDTO.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Assignment\\HomeworkSubmissionDTO.cs",
+              "RelativeDocumentMoniker": "StudyHub.Common\\DTO\\Assignment\\HomeworkSubmissionDTO.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Assignment\\HomeworkSubmissionDTO.cs",
+              "RelativeToolTip": "StudyHub.Common\\DTO\\Assignment\\HomeworkSubmissionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T20:16:05.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "HomeworkGradingDetailDTO.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Assignment\\HomeworkGradingDetailDTO.cs",
+              "RelativeDocumentMoniker": "StudyHub.Common\\DTO\\Assignment\\HomeworkGradingDetailDTO.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Assignment\\HomeworkGradingDetailDTO.cs",
+              "RelativeToolTip": "StudyHub.Common\\DTO\\Assignment\\HomeworkGradingDetailDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T20:14:45.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "HomeworkGrandingStatus.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Assignment\\HomeworkGrandingStatus.cs",
+              "RelativeDocumentMoniker": "StudyHub.Common\\DTO\\Assignment\\HomeworkGrandingStatus.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Assignment\\HomeworkGrandingStatus.cs",
+              "RelativeToolTip": "StudyHub.Common\\DTO\\Assignment\\HomeworkGrandingStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T20:12:53.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "HomeworkGradingStudentRowDTO.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Assignment\\HomeworkGradingStudentRowDTO.cs",
+              "RelativeDocumentMoniker": "StudyHub.Common\\DTO\\Assignment\\HomeworkGradingStudentRowDTO.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.Common\\DTO\\Assignment\\HomeworkGradingStudentRowDTO.cs",
+              "RelativeToolTip": "StudyHub.Common\\DTO\\Assignment\\HomeworkGradingStudentRowDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T20:12:19.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "HomeworkSubmissionService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\HomeworkSubmissionService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\HomeworkSubmissionService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\HomeworkSubmissionService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\HomeworkSubmissionService.cs",
+              "ViewState": "AgIAAFgBAAAAAAAAAAAwwI8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T20:11:54.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IVariantService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Interfaces\\Assignment\\IVariantService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\Interfaces\\Assignment\\IVariantService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Interfaces\\Assignment\\IVariantService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\Interfaces\\Assignment\\IVariantService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T20:10:30.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "IAssignmentService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Interfaces\\Assignment\\IAssignmentService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\Interfaces\\Assignment\\IAssignmentService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Interfaces\\Assignment\\IAssignmentService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\Interfaces\\Assignment\\IAssignmentService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T20:10:25.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "IUserInvitationService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Interfaces\\IUserInvitationService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\Interfaces\\IUserInvitationService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Interfaces\\IUserInvitationService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\Interfaces\\IUserInvitationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T20:10:15.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "OptionsService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Assignments\\OptionsService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\Assignments\\OptionsService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Assignments\\OptionsService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\Assignments\\OptionsService.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowG0AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T20:09:55.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "AssignmentService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Assignments\\AssignmentService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\Assignments\\AssignmentService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\Assignments\\AssignmentService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\Assignments\\AssignmentService.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAgwIYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T20:09:48.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "EncryptService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\EncryptService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\EncryptService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\EncryptService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\EncryptService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T20:09:34.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "MaterialContent.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Entities\\MaterialContent.cs",
+              "RelativeDocumentMoniker": "Entities\\MaterialContent.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Entities\\MaterialContent.cs",
+              "RelativeToolTip": "Entities\\MaterialContent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T20:05:22.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "InvitedUser.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Entities\\InvitedUser.cs",
+              "RelativeDocumentMoniker": "Entities\\InvitedUser.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Entities\\InvitedUser.cs",
+              "RelativeToolTip": "Entities\\InvitedUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T20:04:20.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "EntityBase.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Entities\\EntityBase.cs",
+              "RelativeDocumentMoniker": "Entities\\EntityBase.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Entities\\EntityBase.cs",
+              "RelativeToolTip": "Entities\\EntityBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T20:03:52.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "AssignmentTask.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Entities\\AssignmentTask.cs",
+              "RelativeDocumentMoniker": "Entities\\AssignmentTask.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Entities\\AssignmentTask.cs",
+              "RelativeToolTip": "Entities\\AssignmentTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T20:03:51.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "AssignmentProfile.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Profiles\\AssignmentProfile.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Profiles\\AssignmentProfile.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Profiles\\AssignmentProfile.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Profiles\\AssignmentProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T18:54:56.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Entities\\Assignment.cs",
+              "RelativeDocumentMoniker": "Entities\\Assignment.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\Entities\\Assignment.cs",
+              "RelativeToolTip": "Entities\\Assignment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T21:43:24.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "AssignmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Ivan\\AppData\\Local\\SourceServer\\6f98e147c4de5bf1e426a1b5d38ffc004652970039a1bcb3936652af0c7c9346\\StudyHub\\StudyHub\\Controllers\\AssignmentController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\Ivan\\AppData\\Local\\SourceServer\\6f98e147c4de5bf1e426a1b5d38ffc004652970039a1bcb3936652af0c7c9346\\StudyHub\\StudyHub\\Controllers\\AssignmentController.cs",
+              "ToolTip": "C:\\Users\\Ivan\\AppData\\Local\\SourceServer\\6f98e147c4de5bf1e426a1b5d38ffc004652970039a1bcb3936652af0c7c9346\\StudyHub\\StudyHub\\Controllers\\AssignmentController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\Ivan\\AppData\\Local\\SourceServer\\6f98e147c4de5bf1e426a1b5d38ffc004652970039a1bcb3936652af0c7c9346\\StudyHub\\StudyHub\\Controllers\\AssignmentController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAEwD4AAAAIAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T21:35:25.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssignmentController.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Controllers\\AssignmentController.cs",
+              "RelativeDocumentMoniker": "StudyHub\\Controllers\\AssignmentController.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub\\Controllers\\AssignmentController.cs",
+              "RelativeToolTip": "StudyHub\\Controllers\\AssignmentController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAD4v14AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T21:06:47.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LectureService.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\LectureService.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Services\\LectureService.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Services\\LectureService.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Services\\LectureService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwCAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T20:00:42.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "StudentAnswerProfile.cs",
+              "DocumentMoniker": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Profiles\\StudentAnswerProfile.cs",
+              "RelativeDocumentMoniker": "StudyHub.BLL\\Profiles\\StudentAnswerProfile.cs",
+              "ToolTip": "C:\\C\\StudyHub\\StudyHub-BE\\StudyHub\\StudyHub.BLL\\Profiles\\StudentAnswerProfile.cs",
+              "RelativeToolTip": "StudyHub.BLL\\Profiles\\StudentAnswerProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T21:06:30.51Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

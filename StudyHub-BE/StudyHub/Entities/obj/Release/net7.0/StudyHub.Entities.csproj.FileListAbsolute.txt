@@ -1,0 +1,15 @@
+c:\C\StudyHub\StudyHub-BE\StudyHub\Entities\bin\Release\net7.0\StudyHub.Entities.deps.json
+c:\C\StudyHub\StudyHub-BE\StudyHub\Entities\bin\Release\net7.0\StudyHub.Entities.runtimeconfig.json
+c:\C\StudyHub\StudyHub-BE\StudyHub\Entities\bin\Release\net7.0\StudyHub.Entities.dll
+c:\C\StudyHub\StudyHub-BE\StudyHub\Entities\bin\Release\net7.0\StudyHub.Entities.pdb
+c:\C\StudyHub\StudyHub-BE\StudyHub\Entities\obj\Release\net7.0\StudyHub.Entities.csproj.AssemblyReference.cache
+c:\C\StudyHub\StudyHub-BE\StudyHub\Entities\obj\Release\net7.0\StudyHub.Entities.GeneratedMSBuildEditorConfig.editorconfig
+c:\C\StudyHub\StudyHub-BE\StudyHub\Entities\obj\Release\net7.0\StudyHub.Entities.AssemblyInfoInputs.cache
+c:\C\StudyHub\StudyHub-BE\StudyHub\Entities\obj\Release\net7.0\StudyHub.Entities.AssemblyInfo.cs
+c:\C\StudyHub\StudyHub-BE\StudyHub\Entities\obj\Release\net7.0\StudyHub.Entities.csproj.CoreCompileInputs.cache
+c:\C\StudyHub\StudyHub-BE\StudyHub\Entities\obj\Release\net7.0\StudyHub.Entities.sourcelink.json
+c:\C\StudyHub\StudyHub-BE\StudyHub\Entities\obj\Release\net7.0\StudyHub.Entities.dll
+c:\C\StudyHub\StudyHub-BE\StudyHub\Entities\obj\Release\net7.0\refint\StudyHub.Entities.dll
+c:\C\StudyHub\StudyHub-BE\StudyHub\Entities\obj\Release\net7.0\StudyHub.Entities.pdb
+c:\C\StudyHub\StudyHub-BE\StudyHub\Entities\obj\Release\net7.0\StudyHub.Entities.genruntimeconfig.cache
+c:\C\StudyHub\StudyHub-BE\StudyHub\Entities\obj\Release\net7.0\ref\StudyHub.Entities.dll

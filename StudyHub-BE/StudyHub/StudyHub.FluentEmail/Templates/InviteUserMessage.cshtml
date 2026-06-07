@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <title>Reset Password</title>
+</head>
+<body style="font-family:'Montserrat', sans-serif;color: black; background-color: #FEFCFF">
+
+    <div style="max-width: 600px; border: 2px solid #000000; margin: 20px auto; background-color: #F1F7ED; padding: 20px; border-radius: 12px;">
+        <p style="margin-bottom: 20px; line-height: 1.6; font-weight: bold; font-size: 18px;">Dear <strong>@Model.Recipient</strong>,</p>
+
+        <p style="margin-bottom: 20px; line-height: 1.6; font-size: 18px;">
+            We are pleased to invite you to join the learning platform.
+        </p>
+
+        <p style="margin-bottom: 20px; line-height: 1.6; font-size: 18px;">
+            To get started, register on our platform by clicking the button below:
+        </p>
+        <p style="text-align: center;">
+            <a href="@Model.InviteUserUrl" style="white-space: nowrap; padding: 10px 30px; font-size: 18px; color: #ffffff; text-decoration: none; background-color: #000000; text-align: center; display: inline-block;" onmouseover="this.style.backgroundColor='#2e2d2d'" onmouseout="this.style.backgroundColor='#000000'">Join up</a>
+        </p>
+        <p style="line-height: 1.6; font-size: 18px;">Best regards,<br>Study Hub</p>
+    </div>
+
+</body>
+</html>
